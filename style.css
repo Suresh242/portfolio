@@ -1,0 +1,93 @@
+.hero{
+    min-height: 60vh;
+    background-image: linear-gradient(to right,rgb(222, 218, 218),rgb(182, 179, 179),rgb(162, 155, 155),rgb(128, 128, 128),rgb(100, 99, 99));
+    /* background: url(aaa.jpg) center center no-repeat; */
+    background-size: cover;
+}
+.navbar{
+    background-image: linear-gradient(to right,rgb(222, 218, 218),rgb(182, 179, 179),rgb(162, 155, 155),rgb(128, 128, 128),rgb(100, 99, 99));
+}
+.title{
+    text-align: center;
+    font-size:2rem;
+    font-weight:bolder;
+    margin-top:3rem;
+    margin-bottom:3rem;
+    
+}
+.title span{
+    padding:0.1 rem;
+    border-bottom:0.4rem solid darkgray;
+}
+ /* icons*/
+ .icons{
+    display:flex;
+    font-size:2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+ }
+.icons i{
+    font-size:5rem;
+}
+.icons div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* project section */
+.project{
+    background:lightgray;
+
+}
+.box{
+    background: lightgreen;
+    
+    
+}
+
+
+.group{
+    position:fixed;
+    bottom:125px;
+    right:20px;
+}
+
+    
+
+
+
+
+/* .logo div{
+    display:flex;
+    justify-items: space-between;
+    align-items: center;
+} */
+/* h2{
+    text-align: center;
+     
+ }
+.skills{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.skills ul{
+    list-style: none;
+}
+.container{
+    display:grid;
+    gap:15px;
+    grid-template-areas:
+    "project1 description1" 
+    "description2 project2"
+    "project3 desription3";
+
+}
+img{
+    background:center center no-repeat;
+} */
